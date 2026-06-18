@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF 去底灰（原分辨率）"
+  short_description: "无损去除扫描 PDF 的纸张底灰，同时保持原分辨率与文字抗锯齿"
+  default_prompt: "Use $remove-pdf-background-gray to remove gray scan backgrounds from this PDF without changing its original resolution."
