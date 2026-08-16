@@ -4,19 +4,6 @@
 
 这个项目既可以作为 Codex Skill 自动调用，也可以直接运行其中的 Python 脚本。
 
-## DeepSeek Harness (DSH) 插件安装
-
-`remove-pdf-background-gray` 也是 **DeepSeek Harness (DSH) 插件**，一条命令安装：
-
-```sh
-dsh plugin --profile web add dsh-pdf-background-gray
-```
-
-重启 DSH Web 后，向 Agent 说"把这份扫描 PDF 去底灰"即自动走技能工作流（要求本机 Python 3.10+ 与 `python -m pip install pypdf Pillow numpy`）。
-
-- npm: https://www.npmjs.com/package/dsh-pdf-background-gray
-- 插件源码：本仓库 `dsh-pdf-background-gray/` 目录
-
 ## 核心特点
 
 - **保持原分辨率**：直接处理 PDF 内嵌图像，不缩放图像。

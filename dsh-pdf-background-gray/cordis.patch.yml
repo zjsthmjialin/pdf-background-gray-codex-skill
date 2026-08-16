@@ -1,0 +1,5 @@
+# dsh-pdf-background-gray bundle layer:
+# 挂载技能注册插件（index.js 通过 ctx.skills.register 暴露技能）。
+- insert:
+    - id: remove-pdf-background-gray
+      name: 'dsh-pdf-background-gray'

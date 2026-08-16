@@ -1,0 +1,37 @@
+{
+  "name": "dsh-pdf-background-gray",
+  "version": "0.1.0",
+  "description": "PDF 去底灰技能（remove-pdf-background-gray）的 DSH 插件化分发：去除扫描 PDF 的灰色/米白底色，保持原始分辨率、页面几何与抗锯齿文字边缘；核心为单文件 Python 脚本（pypdf + Pillow + numpy），无损 Flate 压缩。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjsthmjialin/pdf-background-gray-codex-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zjsthmjialin/pdf-background-gray-codex-skill/issues"
+  },
+  "homepage": "https://github.com/zjsthmjialin/pdf-background-gray-codex-skill#readme",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "skill",
+    "pdf",
+    "background-removal",
+    "image-processing"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
