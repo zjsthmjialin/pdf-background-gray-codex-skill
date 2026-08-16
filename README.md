@@ -1,5 +1,7 @@
 # PDF 去底灰（原分辨率）Codex Skill
 
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
+
 `remove-pdf-background-gray` 是一个用于扫描型 PDF 的 Codex Skill。它可以去除纸张扫描产生的灰底或偏白底色，同时保持页面尺寸、嵌入图像的原始像素尺寸和文字的连续抗锯齿边缘。
 
 这个项目既可以作为 Codex Skill 自动调用，也可以直接运行其中的 Python 脚本。
